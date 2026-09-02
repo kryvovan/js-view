@@ -25,3 +25,4 @@ console.log(`Name: ${productName}, sum: ${totalPrice}`)
 alert(`Product is` + productName + "\nTotal price is" + totalPrice)
 
 let sale = +prompt("")
+console.log(totalPrice - (totalPrice * (sale / 100)))
